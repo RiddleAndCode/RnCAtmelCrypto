@@ -63,3 +63,11 @@ To connect an Arduino Uno to the Half-Bean the 3.3V, GND, SDA and SCL pins have 
 The connection logic follows the [PIN connection](imgs/halfbean_uno_connect.png) as shown:
 
 ![PIN connections](https://github.com/RiddleAndCode/RnCAtmelCrypto/blob/master/imgs/halfbean_uno_connect.png)
+
+## Next Steps
+
+This repo is containing the ongoin development process of the RiddleAndCode platform including the official protocol docs, hardware designs, blockchain stubs, etc....
+
+Quick links to other documents:
+
+* [Active NFC Transponder Library]()
