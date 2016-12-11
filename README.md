@@ -61,3 +61,5 @@ The NFC transponder enables beside the I2C bus also a direct RF communication wi
 To connect an Arduino Uno to the Half-Bean the 3.3V, GND, SDA and SCL pins have to connected to each other. To avoid capacitance problems on the I2C bus the connection between the devices should be as short as possible.
 
 The connection logic follows the [PIN connection](imgs/halfbean_uno_connect.png) as shown:
+
+![PIN connections](https://github.com/RiddleAndCode/RnCAtmelCrypto/blob/master/imgs/halfbean_uno_connect.png)
