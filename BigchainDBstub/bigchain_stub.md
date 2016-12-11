@@ -13,6 +13,7 @@ Before working with tags and blockchain several things have to be set up:
 - Install RethinkDB locally and federated on Amazon Cloud Services
 - Install BigchainDB
 - Install Python3 and several Python modules
+- Run the [BeanToBigchain.py example](https://github.com/RiddleAndCode/RnCAtmelCrypto/blob/master/BigchainDBstub/BeanToBigchain.py)
 
 ## Provision TagTok
 
