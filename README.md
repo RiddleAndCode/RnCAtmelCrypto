@@ -11,7 +11,7 @@ Riddle&Code's Crypto library is the beginning of a platform combining hardware s
 - Start the Arduino IDE.
 - Follow the cryptoauth-arduino directory into the Examples directory. Start the file Crypto_Examples.ino from witin the Crypto_Examples folder.
 
-### ATECC508a Basics: Provision, Sign and verify
+## ATECC508a Basics: Provision, Sign and verify
 
 Once the Crypto_Examples code gets executed open the console window from within the Arduino IDE. The console will show a list of basic commands that can be used to operate the crypto IC.
 
@@ -52,7 +52,7 @@ Although the secret key can not be read out the key can be used to derive other 
 **9 - Verify Data** To operate the verify commands takes first the constituting string of the signature, the signature itself and the public key belonging to the secret key that was used for the production of the signature. Once all requested inputs are made available to the cryptochip the validation part of the challenge response routine can happen.
 
 
-### Connect Riddle&Code Half-Bean to Arduino UNO
+## Connect Riddle&Code Half-Bean to Arduino UNO
 
 The RnC Half-Bean is a I2C ready flexible circuit board combining an crypto chip with an active NFC transponder. Any connected MCU can talk to both ICs - to the crypto IC and to the NFC IC - over the I2C bus.
 
