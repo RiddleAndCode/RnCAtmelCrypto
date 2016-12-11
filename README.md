@@ -50,3 +50,14 @@ Although the secret key can not be read out the key can be used to derive other 
 **8 - Sign Data** requires an input string which first gets hashed and then signed with the secret key from a also to be defined slot. It's up to the program to handle the signature as the crypto chip doesn't store it anywhere.
 
 **9 - Verify Data** To operate the verify commands takes first the constituting string of the signature, the signature itself and the public key belonging to the secret key that was used for the production of the signature. Once all requested inputs are made available to the cryptochip the validation part of the challenge response routine can happen.
+
+
+### Connect Riddle&Code Half-Bean to Arduino UNO
+
+The RnC Half-Bean is a I2C ready flexible circuit board combining an crypto chip with an active NFC transponder. Any connected MCU can talk to both ICs - to the crypto IC and to the NFC IC - over the I2C bus.
+
+The NFC transponder enables beside the I2C bus also a direct RF communication with the crypto chip.
+
+To connect an Arduino Uno to the Half-Bean the 3.3V, GND, SDA and SCL pins have to connected to each other. To avoid capacitance problems on the I2C bus the connection between the devices should be as short as possible.
+
+The connection logic follows the [PIN connection](imgs/halfbean_uno_connect.png) as shown:
