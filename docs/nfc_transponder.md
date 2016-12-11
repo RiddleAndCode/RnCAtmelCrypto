@@ -6,7 +6,7 @@ The RiddleAndCode platform uses primarily an active NFC transponder to communica
 RnC uses primarily a Type 2 tag which also supports the I2C bus for communication purposes.
 This enables to run challenge-response requests via NFC radio frequency instead of requiring a physical connection between a reader device an MCU and the security chip.
 
-RnC uses the simple and energy efficient NXP NTAG I2C - NT3H1201.
+RnC uses the simple and energy efficient NXP NTAG I2C - NT3H2111.
 The NTAG I2C is the first product of NXP’s NTAG family offering both contactless and contact interfaces. In addition to the passive NFC Forum compliant contactless interface, the IC features an I2C contact interface, which can communicate with a microcontroller if the NTAG I2C is powered from an external power supply. An additional externally powered SRAM mapped into the memory allows a fast data transfer between the RF and I2C interfaces and vice versa, without the write cycle limitations of the EEPROM memory.
 
 ## Library Usage
@@ -200,7 +200,7 @@ This library depends on the following Arduino libraries, which must also be inst
 * [Bounce2](https://github.com/thomasfredericks/Bounce2) by Thomas Fredericks
 * [NDEF](https://github.com/LieBtrau/NDEF) by Christof Tack & Don Coleman
 
-Arduino library to interface through I²C with the NXP NTAG (NT3H2201)
+Arduino library to interface through I²C with the NXP NTAG (NT3H2111)
 
 ***WARNING***
 -------------

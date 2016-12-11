@@ -9,7 +9,21 @@ Riddle&Code's Crypto library is the beginning of a platform combining hardware s
 - Clone or download the RnCAtmelCrypto code to your desktop.
 - Copy all files to the library folder within your Arduino working library.
 - Start the Arduino IDE.
-- Follow the cryptoauth-arduino directory into the Examples directory. Start the file Crypto_Examples.ino from witin the Crypto_Examples folder.
+- Follow the cryptoauth-arduino directory into the Examples directory. Start the file Crypto_Examples.ino from within the Crypto_Examples folder.
+
+Beside this, to follow through with all examples it also takes:
+
+For NFC Transponder:
+
+- [NXP Taginfo Reader for Android](https://play.google.com/store/apps/details?id=com.nxp.taginfolite&hl=en)
+- [NXP Tagwriter for Android](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter&hl=en)
+- [NTAG I2C for Android](https://play.google.com/store/apps/details?id=com.nxp.ntagi2cdemo&hl=en)
+- [Basic Android NFC Example Code]()
+
+For Public Ledger/Blockchain:
+
+- [BigchainDB Scalable Blockchain](https://github.com/bigchaindb/bigchaindb)
+- [Rnc Blockchain Stub Example]()
 
 ## ATECC508a Basics: Provision, Sign and verify
 
