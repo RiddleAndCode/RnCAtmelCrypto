@@ -85,3 +85,4 @@ This repo is containing the ongoin development process of the RiddleAndCode plat
 Quick links to other documents:
 
 * [Active NFC Transponder Library](https://github.com/RiddleAndCode/RnCAtmelCrypto/blob/master/docs/nfc_transponder.md)
+* [Connect Half-Bean to Blockchain](https://github.com/RiddleAndCode/RnCAtmelCrypto/blob/master/BigchainDBstub/bigchain_stub.md)
