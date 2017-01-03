@@ -3,11 +3,11 @@
 
 ## Toolset
 
-[Android Studio](https://developer.android.com/studio/index.html)
-[NXP NTAG I2C DK](http://www.nxp.com/products/wireless-connectivity/nfc-and-reader-ics/connected-tag-solutions/ntag-ic-plus-explorer-kit-development-kit:OM5569-NT322E)
-[NXP Taginfo](https://play.google.com/store/apps/details?id=com.nxp.taginfolite&hl=en)
-[NXP TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter&hl=en)
-[NXP I2C Demoboard](https://play.google.com/store/apps/details?id=com.nxp.ntagi2cdemo&hl=en)
+1. [Android Studio](https://developer.android.com/studio/index.html)
+2. [NXP NTAG I2C DK](http://www.nxp.com/products/wireless-connectivity/nfc-and-reader-ics/connected-tag-solutions/ntag-ic-plus-explorer-kit-development-kit:OM5569-NT322E)
+3. [NXP Taginfo](https://play.google.com/store/apps/details?id=com.nxp.taginfolite&hl=en)
+4. [NXP TagWriter](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter&hl=en)
+5. [NXP I2C Demoboard](https://play.google.com/store/apps/details?id=com.nxp.ntagi2cdemo&hl=en)
 
 The toolset is essential to have the as a reference to validate the binary data strings constituting the diverse NFC protocols.
 
