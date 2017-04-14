@@ -10,6 +10,7 @@ Riddle&Code's Crypto library is the beginning of a platform combining hardware s
 - Copy all files to the library folder within your Arduino working library.
 - Start the Arduino IDE.
 - Follow the cryptoauth-arduino directory into the Examples directory. Start the file Crypto_Examples.ino from within the Crypto_Examples folder.
+- Follow the CmdMessenger directory into the Examples directory. Start the file example_utf8.ino from within the CmdMessenger folder.
 
 Beside this, to follow through with all examples it also takes:
 
