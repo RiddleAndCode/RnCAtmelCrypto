@@ -11,6 +11,7 @@ Riddle&Code's Crypto library is the beginning of a platform combining hardware s
 - Start the Arduino IDE.
 - Follow the cryptoauth-arduino directory into the Examples directory. Start the file Crypto_Examples.ino from within the Crypto_Examples folder.
 - Follow the CmdMessenger directory into the Examples directory. Start the file example_utf8.ino from within the CmdMessenger folder.
+- Follow the micro-ecc directory into the Examples directory. Start the file micro-ecc.ino from within the micro-ecc folder. The example reproduces the ECDSA of the ASIC based crypto accelerator chip in python. 
 
 Beside this, to follow through with all examples it also takes:
 
