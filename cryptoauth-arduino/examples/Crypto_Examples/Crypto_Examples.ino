@@ -732,7 +732,7 @@ void menuVerifyData() {
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
-  ecc.enableDebug(&Serial);
+  //ecc.enableDebug(&Serial);
 
   displayMenu();
 }
